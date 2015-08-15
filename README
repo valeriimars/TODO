@@ -1,0 +1,15 @@
+External libraries: 
+    I've decided to include well known 3p dependencies to avoid spending time on well known functionality that is not part of the task.
+    
+    - Underscore.js
+        Reason: Provides set of utility functions
+    - Require.js
+        Reason: Provides handy mechanism to manage dependencies and define modules in a separate files.
+    - Qunit
+        Reason: Test runner to run unit tests
+
+-Summary:
+    Prototype is built on top of classic MVC to follow listed Constraints, though I'd prefer here using FLUX or other hybrid MV* patter.
+    Didn't use TDD due to development without contract. This pretty close to prototype development.
+
+Test in browser: Chrome 44.0.2403.130 (64-bit)
