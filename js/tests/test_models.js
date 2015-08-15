@@ -46,7 +46,6 @@ define(['models/model', 'models/item_model', 'models/items_collection_model'],
                 QUnit.equal(collection.getItems().length, collection.getItemsNumber());
 
                 collection.deleteItemById(itemModel.getId());
-                QUnit.equal(collection.getItems().length, 1, "Collection should contain 1 model");
                 QUnit.equal(collection.getItems().length, collection.getItemsNumber());
             });
         }());
